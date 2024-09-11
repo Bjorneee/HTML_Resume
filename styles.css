@@ -222,10 +222,10 @@ h5 {
     border-color: rgb(26, 34, 49);
     color:rgb(26, 34, 49);
     height: auto;
-    line-height: 100x;
+    line-height: 100px;
     margin: 50px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 25px;
     position: relative;
     text-align: center;
