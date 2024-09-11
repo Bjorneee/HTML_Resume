@@ -12,11 +12,16 @@
         <div class="title">
             <h1>Projects</h1>
         </div>
-        <label for="prj_list">Select a Project:</label>
-        <select name="prj_list" class="prjselect">
-            <option value="prj1">Rocket Tool</option>
-            <option value="prj2">Papa's Burgeria</option>
-        </select>
+        <div class="select_bar">
+            <label for="prj_list">Select a Project:</label>
+            <select name="prj_list" id="prj_select">
+                <option value="default"></option>
+                <option value="prj1">Rocket Utility</option>
+                <option value="prj2">Papa's Burgeria</option>
+            </select>
+            <button class="button" onclick="change_project()">Sumbit</button>
+        </div>
         <footer>Phone: +1 (925)321-9097 | Email: bmarenco2204@gmail.com</footer>
+        <script src="p_script.js"></script>
     </body>
 </html>
