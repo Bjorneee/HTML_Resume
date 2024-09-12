@@ -1,23 +1,24 @@
 body {
     background-color: white;
     border: 0px;
+    color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    height: auto;
     margin: 0px;
     padding-bottom: 40px;
     position: relative;
-    color: black;
+    width: 100%;
 }
 
 footer {
     background-color: rgb(26, 34, 49);
-    bottom: 0%;
+    bottom: 0px;
     color: white;
     font-size: 15px;
     font-style: italic;
     height: 40px;
     line-height: 40px;
-    margin-top: auto;
     position: absolute;
     text-align: center;
     width: 100%;
