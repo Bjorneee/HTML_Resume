@@ -13,7 +13,6 @@ footer {
     background-color: rgb(26, 34, 49);
     bottom: 0%;
     color: white;
-    font-family: Arial;
     font-size: 15px;
     font-style: italic;
     height: 40px;
@@ -39,7 +38,7 @@ h5 {
 .navbar {
     background-color: rgb(26, 34, 49);
     list-style-type: none;
-    height: 50px;
+    height: 55px;
     margin: 0;
     overflow: hidden;
     position: fixed;
@@ -48,12 +47,10 @@ h5 {
 }
 
 .navtext {
-    background-color: rgb(26, 34, 49);
     color: white;
     display: block;
     float: left;
-    font-family: Arial;
-    font-size: 22;
+    font-size: 22px;
     padding: 14px;
     padding-left: 50px;
     padding-right: 50px;
@@ -64,6 +61,48 @@ h5 {
 
 .navtext:hover {
     background-color: rgb(87, 105, 139);
+}
+
+.drop_select {
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.drop_select select {
+    display: none;
+}
+
+.current {
+    height: 55px;
+    position: fixed;
+    translate: 400px;
+}
+
+.drop_options div, .current {
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    height: 27px;;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 200px;
+}
+
+.drop_options div:hover, .current:hover {
+    background-color: rgb(87, 105, 139);
+}
+
+.drop_options {
+    background-color: rgb(26, 34, 49);
+    position: fixed;
+    top: 55px;
+    left: 400px;
+    z-index: 10;    
+}
+
+.drop_hide {
+    display: none;
 }
 
 .title{
