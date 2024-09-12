@@ -296,3 +296,34 @@ h5 {
     font-size: 25px;
     line-height: 50px;
 }
+
+/* ========== Projects ========== */
+
+.select_bar {
+    background-color:rgb(26, 34, 49);
+    color: white;
+    text-align: center;
+}
+
+.prj_previews {
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.preview {
+    background-color: rgb(26, 34, 49);
+    border: 20px double;
+    border-color: white;
+    border-radius: 20px;
+    flex: 50%;
+    margin:100px;
+}
+
+.preview_img {
+    border: 10px double;
+    border-color: white;
+    border-radius: 10px;
+    height: 75%;
+    width: auto;
+}
