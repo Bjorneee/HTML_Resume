@@ -141,7 +141,7 @@ h5 {
 }
 
 .about {
-    align-items: stretch;
+    align-items: center;
     border-bottom: 3px dotted rgb(26, 34, 49);
     color:rgb(39, 54, 82);
     display: flex;
@@ -172,7 +172,7 @@ h5 {
     border: 5px double;
     border-color: rgb(26, 34, 49);
     border-radius: 5px;
-    flex: 40%;
+    flex: 1 0 40%;
     font-size: 30px;
     height: auto;
     margin: 50px;
