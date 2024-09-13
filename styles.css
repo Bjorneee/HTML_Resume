@@ -6,6 +6,7 @@ body {
     font-size: 30px;
     height: auto;
     margin: 0px;
+    padding-top: 55px;
     padding-bottom: 40px;
     position: relative;
     width: 100%;
@@ -43,6 +44,7 @@ h5 {
     margin: 0;
     overflow: hidden;
     position: fixed;
+    top: 0%;
     width: 100%;
     z-index: 10;
 }
@@ -52,6 +54,7 @@ h5 {
     display: block;
     float: left;
     font-size: 22px;
+    height: 55px;
     padding: 14px;
     padding-left: 50px;
     padding-right: 50px;
@@ -339,31 +342,27 @@ h5 {
 
 /* ========== Projects ========== */
 
-.select_bar {
-    background-color:rgb(26, 34, 49);
-    color: white;
+.main {
+    columns: 2;
+    float: left;
     text-align: center;
 }
 
-.prj_previews {
-    color: white;
-    display: flex;
+.img_gallery {
     text-align: center;
 }
 
-.preview {
-    background-color: rgb(26, 34, 49);
-    border: 20px double;
-    border-color: white;
-    border-radius: 20px;
-    flex: 50%;
-    margin:100px;
-}
-
-.preview_img {
-    border: 10px double;
-    border-color: white;
+.prj_img {
+    border: 5px double red;
     border-radius: 10px;
-    height: 75%;
+    height: 750px;
+    margin: 50px;
+    padding: 20px;
     width: auto;
+}
+
+.prj_desc {
+    display: grid;
+    justify-content: right;
+    width: 40%;
 }
