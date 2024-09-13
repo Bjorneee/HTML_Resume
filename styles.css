@@ -32,7 +32,7 @@ h5 {
 .header {
     font-size: 60px;
     margin: 0px;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
     padding-top: 50px;
     text-align: center;
 }
@@ -124,44 +124,60 @@ h5 {
     text-shadow: 7px 7px 10px black;
 }
 
+#resume_vid {
+    background-color: rgb(26, 34, 49);
+}
+
+.video_box {
+    padding: 60px;
+    text-align: center;
+    width: auto
+}
+
+.video_box video {
+    border: 5px double white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 .about {
-    border-top:5px solid rgb(26, 34, 49);
+    align-items: stretch;
+    border-bottom: 3px dotted rgb(26, 34, 49);
     color:rgb(39, 54, 82);
     display: flex;
     flex-wrap: wrap;
-    height: auto;
     line-height: 50px;
     margin: 0px;
-    overflow: auto;
+    margin-bottom: 70px;
     padding: 20px;
-    width: auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.pic-container {
+    flex: 1 0 40%;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
 }
 
 .my_pic {
-    border: 5px double;
-    border-color: rgb(26, 34, 49);
-    border-radius: 7px;
-    flex: 5%;
-    float: left;
-    margin: 15px;
-    text-align: center;
-    width: 50px;
+    border: 5px double rgb(26, 34, 49);
+    border-radius: 10px;
+    height: auto;
+    width: 55%;
 }
 
 .about_text {
     border: 5px double;
     border-color: rgb(26, 34, 49);
     border-radius: 5px;
-    height: auto;
-    flex: 50%;
+    flex: 40%;
     font-size: 30px;
-    margin: 20px;
-    padding: 50px;
-    text-align: center;
-}
-
-.prjselect {
-    width: 200px;
+    height: auto;
+    margin: 50px;
+    padding: 20px;
+    width: 25%;
 }
 
 .xp {
@@ -170,6 +186,8 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 250px;
 }
 
 .job {
@@ -205,6 +223,11 @@ h5 {
     margin-bottom: 4px;
 }
 
+#edu_title {
+    background-color: rgb(26, 34, 49);
+    color: white;
+}
+
 .education {
     color:rgb(39, 54, 82);
 }
@@ -213,19 +236,19 @@ h5 {
     align-items: center;
     border-top: 4px solid rgb(26, 34, 49);
     display: flex;
-    flex-wrap: nowrap;
+    height: auto;
+    flex-wrap: wrap;
     text-align: center;
     overflow: auto;
 }
 
 .school_pic {
-    flex: 75%;
-    height: auto;
+    flex: 0 2 60%;
     width: 25%;
 }
 
 .school_desc {
-    flex: 50%;
+    flex: 2 0 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -330,7 +353,7 @@ h5 {
     border-top: 4px dotted rgb(26, 34, 49);
     display:flex;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 30px;
     padding-top: 20px;
 }
 
@@ -343,26 +366,63 @@ h5 {
 /* ========== Projects ========== */
 
 .main {
-    columns: 2;
-    float: left;
-    text-align: center;
-}
-
-.img_gallery {
-    text-align: center;
-}
-
-.prj_img {
-    border: 5px double red;
-    border-radius: 10px;
-    height: 750px;
-    margin: 50px;
-    padding: 20px;
-    width: auto;
+    background-image: radial-gradient(rgb(54, 54, 54), black);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .prj_desc {
-    display: grid;
-    justify-content: right;
-    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.prj_text {
+    background-color: transparent;
+    border: 10px solid transparent;
+    border-radius: 50px;
+    box-shadow: 20px 20px 50px black;
+    flex: 50%;
+    margin: 50px;
+}
+
+.prj_text h4 {
+    font-size: 64;
+    font-style: oblique;
+    margin: 40px;
+}
+
+.prj_text p {
+    margin: 50px;
+    line-height: 80px;
+}
+
+.img_gallery {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img_container {
+    flex: 25%;
+    padding: 40px;
+    margin: 30px;
+}
+
+.prj_img {
+    border: 12px solid transparent;
+    border-image: linear-gradient(rgb(255, 175, 175),red, black);
+    border-image-slice: 1;
+    box-shadow: 5px 10px 8px black;
+    height: auto;
+    width: 75%;
+}
+
+#rocket_border {
+    border: 12px solid transparent;
+    border-image: linear-gradient(rgb(255, 175, 175),red, black);
+    border-image-slice: 1;
+    box-shadow: 5px 10px 8px black;
+    padding: 0;
 }
