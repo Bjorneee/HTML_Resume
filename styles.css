@@ -426,3 +426,29 @@ h5 {
     box-shadow: 5px 10px 8px black;
     padding: 0;
 }
+
+.code-container {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    font-family: monospace;
+    height: auto;
+    line-height: 50px;;
+}
+
+.code-container div {
+    margin: 20px;
+}
+
+.burger-gallery {
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    border-top: 40px solid white;
+    display: flex;
+    height: auto;
+}
+
+.burger_img {
+    border-radius: 10px;
+    width: 75%;
+}
